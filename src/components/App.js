@@ -42,10 +42,13 @@ const mapStateToProps = (state) => {
   console.log(`mapStateToPropsのstateを出力：${JSON.stringify(state)}`);
   return { value: state.count.value };
 };
-const mapDispatchToProps = (dispatch) => ({
-  increment: () => dispatch(increment()),
-  decrement: () => dispatch(decrement()),
-});
+// const mapDispatchToProps = (dispatch) => ({
+//   increment: () => dispatch(increment()),
+//   decrement: () => dispatch(decrement()),
+// });
+
+// 省略記法
+const mapDispatchToProps = { increment, decrement };
 
 // stateとactionを関連づける
 export default connect(mapStateToProps, mapDispatchToProps)(App);
