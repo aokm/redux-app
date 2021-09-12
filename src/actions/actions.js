@@ -1,10 +1,10 @@
 // type
-// Reducerで使用される
+// Reducerで使用
 export const INCREMENT = 'INCREMENT';
 export const DECREMENT = 'DECREMENT';
 
 // Action Creater
-// コンポーネントで使用される
+// コンポーネントで使用
 export const increment = () => ({
   type: INCREMENT,
 });

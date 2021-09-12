@@ -1,8 +1,8 @@
-import { INCREMENT, DECREMENT } from '../actions';
+import { INCREMENT, DECREMENT } from '../actions/actions';
 
 const initialState = { value: 0 };
 
-export const count = (state = initialState, action) => {
+const count = (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT:
       return { value: state.value + 1 };
@@ -12,3 +12,5 @@ export const count = (state = initialState, action) => {
       return state;
   }
 };
+
+export default count;
