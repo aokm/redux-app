@@ -16,6 +16,9 @@ const Header = () => {
             <Link to="/ReduxCount">ReduxCount</Link>
           </li>
           <li>
+            <Link to="/FcCount">FcCount</Link>
+          </li>
+          <li>
             <Link to="/Employee">従業員ページ</Link>
           </li>
         </ul>

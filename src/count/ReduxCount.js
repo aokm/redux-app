@@ -11,6 +11,7 @@ class ReduxCount extends Component {
     return (
       <>
         <div className="default">
+          <h1>ReduxCount</h1>
           count: {props.value}
           <br />
           <button onClick={props.increment}>+1</button>
