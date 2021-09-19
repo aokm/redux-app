@@ -1,7 +1,7 @@
-import { Component } from 'react';
-import { connect } from 'react-redux';
+import { Component } from "react";
+import { connect } from "react-redux";
 
-import { increment, decrement } from '../actions/actions';
+import { increment, decrement } from "../actions/actions";
 
 class ReduxCount extends Component {
   render() {

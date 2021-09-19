@@ -1,5 +1,5 @@
-import React from 'react';
-import { useParams, useLocation } from 'react-router-dom';
+import React from "react";
+import { useParams, useLocation } from "react-router-dom";
 
 const Profile = () => {
   const { id } = useParams();
@@ -10,7 +10,7 @@ const Profile = () => {
     <>
       <h1>従業員プロフィールページ</h1>
       <p>パラーメーターのidは{id}</p>
-      <p>パラーメーターのqueryは{query.get('isLogin')}</p>
+      <p>パラーメーターのqueryは{query.get("isLogin")}</p>
       <p>stateは{state}</p>
     </>
   );

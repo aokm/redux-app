@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import './App.scss';
+import { Link } from "react-router-dom";
+import "./App.scss";
 
 const Header = () => {
   return (
@@ -20,6 +20,9 @@ const Header = () => {
           </li>
           <li>
             <Link to="/Employee">従業員ページ</Link>
+          </li>
+          <li>
+            <Link to="/Todo">Todoページ</Link>
           </li>
         </ul>
       </div>

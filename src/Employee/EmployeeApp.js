@@ -1,30 +1,30 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 
-import Header from '../components/Header';
-import EmployeeHome from './EmployeeHome';
-import Login from './Login';
-import Profile from './Profile';
-import Settings from './Settings';
+import Header from "../components/Header";
+import EmployeeHome from "./EmployeeHome";
+import Login from "./Login";
+import Profile from "./Profile";
+import Settings from "./Settings";
 
 const employeeAppRoutes = [
   {
-    path: '/',
+    path: "/",
     exact: true,
     children: <EmployeeHome />,
   },
   {
-    path: '/login',
+    path: "/login",
     exact: false,
     children: <Login />,
   },
   {
-    path: '/settings/:id',
+    path: "/settings/:id",
     exact: false,
     children: <Settings />,
   },
   {
-    path: '/profile/:id',
+    path: "/profile/:id",
     exact: false,
     children: <Profile />,
   },

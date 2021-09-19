@@ -1,5 +1,5 @@
-import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from '../actions/actions';
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement } from "../actions/actions";
 
 const FcCount = () => {
   const counterSelector = (state) => state.count.value;

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Field, reduxForm } from 'redux-form';
+import React from "react";
+import { Field, reduxForm } from "redux-form";
 
 let LoginForm = (props) => {
   const { handleSubmit } = props;
@@ -15,7 +15,7 @@ let LoginForm = (props) => {
 };
 
 LoginForm = reduxForm({
-  form: 'sampleReduxForm',
+  form: "sampleReduxForm",
 })(LoginForm);
 
 export default LoginForm;

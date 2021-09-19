@@ -1,12 +1,12 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 
-import Home from './components/Home';
-import Header from './components/Header';
-import Page404 from './components/Page404';
-import ReduxCount from './count/ReduxCount';
-import SimpleCount from './count/SimpleCount';
-import FcCount from './count/FcCount';
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Page404 from "./components/Page404";
+import ReduxCount from "./count/ReduxCount";
+import SimpleCount from "./count/SimpleCount";
+import FcCount from "./count/FcCount";
 
 const Default = () => {
   return (
